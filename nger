@@ -1,1 +1,13 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EliasAtto1/BeamedWare/main/BeamedWare2.0"))()
+put this in the code if u want to have a key toggle:
+if key == "v" then
+if Closed == true then
+    Closed = false
+        game.CoreGui["BeamedWare.CC 2.0 😍"].Enabled = false
+    else
+        Closed = true
+            game.CoreGui["BeamedWare.CC 2.0 😍"].Enabled = true
+        end
+    end
+end)
+
+link: https://raw.githubusercontent.com/EliasAtto1/BeamedWare/main/BeamedWare2.0
